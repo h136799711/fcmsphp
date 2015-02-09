@@ -1,0 +1,58 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>支付流程</title>
+<link rel="stylesheet" type="text/css" href="css/style_gw.css"/>
+<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.idTabs.min.js"></script>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+</head>
+
+<body style="overflow-x:hidden">
+<div class="Tab-Content" style="margin:0; width:810px">
+            
+<div class="Tab-Container" style="float:left; width:810px;">
+<object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="800" height="630">
+  <param name="movie" value="flash/huaxia9.swf" />
+  <param name="quality" value="high" />
+  <param name="wmode" value="opaque" />
+  <param name="swfversion" value="6.0.65.0" />
+  <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+  <param name="expressinstall" value="Scripts/expressInstall.swf" />
+  <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+  <!--[if !IE]>-->
+  <object type="application/x-shockwave-flash" data="flash/huaxia9.swf" width="800" height="630">
+    <!--<![endif]-->
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="swfversion" value="6.0.65.0" />
+    <param name="expressinstall" value="Scripts/expressInstall.swf" />
+    <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+    <div>
+      <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+    </div>
+    <!--[if !IE]>-->
+  </object>
+  <!--<![endif]-->
+</object>
+<p><b>华厦银行</b><br />
+1.选择登录方式："网上个人银行"<br />
+2．输入登录用户名、登录密码、验证码，点击"提交"进行登录<br />
+3．选择"网上汇款"<br />
+4．选择"跨行汇/收款"<br />
+5. 选择"实时到账"<br />
+6．请复制信息粘贴到相应表框中，且认真完善其他内容点击"确定"完成操作<br />
+7．完成充值
+
+</p>
+
+  </div>
+</div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>
+</body>
+</html>

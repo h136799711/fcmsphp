@@ -1,0 +1,7 @@
+数据库，用户名，密码  
+
+mysqldump -u root -1 demo | gzip > /home/fireuser/backup/database_` date +"\%Y\%m\%d_\%H\%M\%S"`.sql.gz
+
+cron作业
+
+
