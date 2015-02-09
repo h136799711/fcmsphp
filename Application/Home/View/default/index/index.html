@@ -1,0 +1,145 @@
+<extend name="partials/style1" />
+
+
+<block name="area_header">
+	<style type="text/css">
+		.what-can-we-do .do-item .item-img.d01 {
+			background: url(__IMG__/d01.gif) center center;
+		}
+		.what-can-we-do .do-item .item-desc .d01 {
+			width: 100%;
+			height: 190px;
+			display: block;
+			background: url(__IMG__/d01-1.png) #38D3B4 no-repeat;
+			background-size: contain;
+		}
+		.what-can-we-do .do-item .item-img.d02 {
+			background: url(__IMG__/d02.jpg) center center;
+		}
+		.what-can-we-do .do-item .item-desc .d02 {
+			width: 100%;
+			height: 190px;
+			display: block;
+			background: url(__IMG__/d02-1.png) #38D3B4 no-repeat;
+			background-size: contain;
+		}
+		.what-can-we-do .do-item .item-desc .d04 {
+			width: 100%;
+			height: 190px;
+			display: block;
+			background: url(__IMG__/d04-1.png) #38D3B4 no-repeat;
+			background-size: contain;
+		}
+		.what-can-we-do .do-item .item-img.d04 {
+			background: url(__IMG__/d04.jpg) center center;
+		}
+	</style>
+</block>
+
+<block name="area_body">
+	<include file="partials/header" />
+	<div class="silder">
+		<div id="carousel-imgs" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-imgs" data-slide-to="0" class="active"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<!--<img src="__IMG__/banner_01_1009.jpg" alt="banner_01_1009">-->
+					<div style="background:url(__IMG__/banner_01_1009.jpg)  center center no-repeat;
+background-size: cover;height: 400px;width:100%" alt="banner_01_1009"></div>
+				</div>
+			</div>
+
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-imgs" role="button" data-slide="prev">
+				<span class="fa fa-arrow-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-imgs" role="button" data-slide="next">
+				<span class="fa fa-arrow-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+
+	<div class="what-can-we-do clearfix center-block text-center">
+
+		<h2>我们主要是做什么的？</h2>
+		<div class="items rows">
+			<div class="do-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<img src="__IMG__/d01.gif" class="img-responsive" alt="APP UI界面设计" />
+				<!--<span class="item-img d01"></span>-->
+				<div class="item-desc">
+					<h3>APP UI界面设计</h3>
+					<small class="d01"></small>
+
+					<!--<img src="__IMG__/d01-1.png" class="img-responsive" alt="APP UI界面设计"/>-->
+				</div>
+			</div>
+			<div class="do-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<img src="__IMG__/d02.jpg" class="img-responsive" alt="IOS、Android应用开发" />
+				<!--<span class="item-img d02"></span>-->
+				<div class="item-desc">
+					<h3>IOS、Android应用开发</h3>
+					<small class="d02"></small>
+					<!--<img src="__IMG__/d02-1.png" class="img-responsive" alt="IOS、Android应用开发"/>-->
+				</div>
+			</div>
+			<!--<div class="do-item col-xs-12">
+				<span class="item-img d03"></span>
+				<div class="item-desc "><h3>服务器后台、APP应用接口开发</h3></div>
+			</div>-->
+			<div class="do-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<img src="__IMG__/d04.jpg" class="img-responsive" alt="PC、移动网站开发" />
+
+				<div class="item-desc">
+					<h3>PC、移动网站开发</h3>
+					<span class="item-img d04"></span>
+					<!--<img src="__IMG__/d02-1.png" class="img-responsive" alt="PC、移动网站开发"/>-->
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="about-boye clearfix center-block">
+		<div class="boye-img col-lg-4 col-lg-5">
+			<img class="img-responsive" src="__IMG__/divice-screen.png" />
+		</div>
+		<div class="desc col-lg-8 col-md-7">
+			<h2 class="text-center">关于<span class="text-primary">杭州博也信息科技有限公司</span></h2>
+			<p>
+				杭州博也信息有限公司是一家专业从事移动互联网软件开发与外包的服务性公司，为客户提供专业化的ios、android、windows phone等移动平台软件开发，php、java等服务器平台开发，另外还从事网站、微网站、GUI等产品的设计和研发。我们在互联网领域拥有多年的实践经验、一流的管理和开发团队，已经为多家企事业单位提供了专业优质的服务，并受到了客户的一致好评。我们的团队包括多位ios开发工程师、android开发工程师以及服务器开发人员，另外还包括资深的UI设计师，在App程序开发、用户体验设计、UI设计、App运营与推广方面拥有丰富的行业经验。
+			</p>
+			<p>博也以“专注细节，专注精品，服务至上”的软件开发服务理念，以坚持“一切以客户利益为导向”为价值追求...
+
+
+
+
+			</p>
+		</div>
+	</div>
+	<div class="contact-boye clearfix center-block">
+		<h3 class="text-center">24小时全国服务热线</h3>
+		<h2 class="text-center">+86-13484379290</h2>
+		<div class=" col-lg-12 ">
+			<ul class="list-unstyled">
+				<li class="pull-left"><i class="fa fa-2x fa-phone"></i> 13484379290 / 13484379290</li>
+				<li class="pull-left"><i class="fa fa-2x fa-print"></i> +86-000-00000000</li>
+				<li class="pull-left"><i class="fa fa-2x fa-envelope-o"></i> <a href="mailto:gooraye@126.com">gooraye@126.com</a></li>
+				<li class="pull-left"><i class="fa fa-2x fa-map-marker"></i> 杭州市下沙区金沙湖1号2幢1515室</li>
+				<li class="pull-left"><i class="fa fa-2x fa-qq"></i><a href="http://wpa.qq.com/msgrd?v=3&uin=346551990&site=qq&menu=yes" target="_blank">346551990</a> / <a href="http://wpa.qq.com/msgrd?v=3&uin=2966442390&site=qq&menu=yes" target="_blank">2966442390</a> (点击即可在线QQ聊天)</li>
+			</ul>
+		</div>
+		<div style="padding-bottom: 500px;" class="map col-lg-10 col-lg-push-1 col-xs-12 embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src="{:U('Home/Index/map',array('lng'=>120.337984,'lat'=>30.314941,'height'=>'250px'))}"></iframe>
+		</div>
+	</div>
+</block>
+
+<block name="area_footer">
+	<include file="partials/footer" />
+</block>

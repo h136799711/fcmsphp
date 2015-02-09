@@ -1,5 +1,6 @@
 <?php
 return array(
+	"SHOW_PAGE_TRACE"=>"false",
 	"DEFAULT_THEME"=>"default",
 	//自定义配置
 	'LANG_AUTO_DETECT' => true, // 自动侦测语言 开启多语言功能后有效

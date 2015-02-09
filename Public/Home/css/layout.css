@@ -1,5 +1,134 @@
 /*布局与通用*/
-/* 头部 */
-.header{
+
+#top-nav {
+	width: 100%;
+}
+#top-nav>div>div {
+	padding: 5px 10px;
+}
+#top-nav i.fa {
+	margin: 0px 2px;
+}
+#header-nav {
+	width: 100%;
+}
+#header-nav .nav>li {
+	padding: 15px 0px;
+}
+#header-nav .nav>li>a {
+	font-size: 1.5em;
+}
+#header-nav .nav>li.active a {
+	color: #ffffff;
+}
+#header-nav .nav>li.active {
+	background: #4072b9;
+}
+#header-nav .navbar-brand {
+	padding: 25px;
+}
+#header-nav .navbar {
+	border: 0px;
+	margin-bottom: 0px;
+}
+/*头部 */
+
+#header {
+	width: 100%;
+}
+/*底部*/
+
+#footer {
+	width: 100%;
+	padding: 20px 0px;
+}
+/*carousel-control*/
+
+.carousel-control .fa-arrow-left,
+.carousel-control .fa-arrow-right {
+	position: absolute;
+	top: 50%;
+	z-index: 5;
+	display: inline-block;
+}
+.what-can-we-do {
+	width: 100%;
+}
+.what-can-we-do .do-item .item-img {
+	width: 100%;
+	height: 180px;
+	display: block;
+}
+.what-can-we-do .do-item .item-desc h3 {
+	margin: 0px;
+	background: #38D3B4;
+	color: #fff;
+}
+.about-boye{
+	margin: 20px 0px;
+}
+.about-boye .desc p{
+	text-indent: 2em;
+	font-size: 14px;
+	margin-bottom: 10px;
+	line-height: 25px;
+}
+.contact-boye{
+	font-size: 1.2em;
+}
+.contact-boye li{
+	margin: 10px 0px;
+}
+.contact-boye .fa{
+	width: 36px;
+	text-align: center;
+}
+@media (min-width: 768px) {
+} 
+@media (min-width: 992px) {
+	/*布局与通用*/
 	
+	#top-nav>div {
+		width: 980px;
+	}
+	#header-nav>div {
+		width: 980px;
+	}
+	/*头部 */
+	
+	#header>div {
+		width: 980px;
+	}
+	/*底部*/
+	
+	#footer>div {
+		width: 980px;
+	}
+	.what-can-we-do,.about-boye {
+		width: 1000px;
+	}
+}
+@media (min-width: 1200px) {
+	/*布局与通用*/
+	
+	#top-nav>div {
+		width: 1200px;
+	}
+	#header-nav>div {
+		width: 1200px;
+	}
+	/*头部 */
+	
+	#header>div {
+		width: 1200px;
+	}
+	.what-can-we-do,.about-boye {
+		width: 1300px;
+	}
+	
+	/*底部*/
+	
+	#footer>div {
+		width: 1200px;
+	}
 }
