@@ -27,5 +27,32 @@ class IndexController extends HomeController {
 		$this->display();
 	}
 	
+	/**
+	 * 技术优势
+	 */
+	public function skill(){
+		$this->display();
+	}
+	
+	/**
+	 * 产品服务
+	 */
+	public function services(){
+		$this->display();
+	}
+	 
+	 /**
+	 * 解决方案
+	 */
+	public function solutions(){
+		$this->display();
+	}
+	
+	/**
+	 * 关于我们
+	 */
+	public function about(){
+		$this->display();
+	}
 	
 }

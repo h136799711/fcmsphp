@@ -15,8 +15,9 @@
 			<a href="#" onmouseover="$('#weixinqrcode').show(1500);" onmouseleave="$('#weixinqrcode').hide(1500);"><i class="fa fa-2x fa-weixin"></i></a>
 		</span>
 			<span>
-			<a href="tel:13484379290" ><i class="fa fa-2x fa-phone"></i><span style="font-size: 1.4em;">13484379290</span></a>
-		</span>
+			<a href="tel:13484379290" ><i class="fa fa-2x fa-phone"></i><span style="font-size: 1.4em;">13484379290</span>
+			</a>
+			</span>
 		</div>
 
 	</div>
@@ -31,29 +32,51 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">BOYE</a>
+				<a class="navbar-brand" href="#">BOYE·博也</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-navbar">
 				<ul class="nav navbar-nav ">
-					<li class="active"><a href="#"><i class="fa fa-home"></i>首页 <span class="sr-only">(current)</span></a>
+					<li class="active"><a href="{:U('Index/index')}"><i class="fa fa-home"></i>首页 <span class="sr-only">(current)</span></a>
 					</li>
-					<li><a href="#"><i class="fa fa-shopping-cart"></i>产品服务</a>
+					<li><a href="{:U('Index/services')}"><i class="fa fa-shopping-cart"></i>产品服务</a>
 					</li>
-					<li><a href="#"><i class="fa fa-list-ol"></i>解决方案</a>
+					<li><a href="{:U('Index/solutions')}"><i class="fa fa-list-ol"></i>解决方案</a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-thumbs-o-up"></i>技术优势 <span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true"><i class="fa fa-thumbs-o-up"></i>技术优势 <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="#">技术优势</a>
+							<li><a href="{:U('Index/skill')}">即时通讯技术</a>
 							</li>
-							<li><a href="#">技术优势</a>
+							<li><a href="{:U('Index/skill')}">AR实景增强技术</a>
 							</li>
-							<li><a href="#">Something else here</a>
+							<li><a href="{:U('Index/skill')}">名片扫描技术</a>
+							</li>
+							<li><a href="{:U('Index/skill')}">视频合成技术</a>
+							</li>
+							<li><a href="{:U('Index/skill')}">GPS坐标偏移转换技术</a>
+							</li>
+							<li><a href="{:U('Index/skill')}">图片文字识别技术</a>
+							</li>
+							<li><a href="{:U('Index/skill')}">ios GIF动画生成技术</a>
+							</li>
+							<li><a href="{:U('Index/skill')}">基站定位技术</a>
+							</li>
+							<li><a href="{:U('Index/skill')}">COCOS2D动画技术</a>
+							</li>
+							<li><a href="{:U('Index/skill')}">3D模型制作</a>
+							</li>
+							<li><a href="{:U('Index/skill')}">HTML5技术</a>
+							</li>
+							<li><a href="{:U('Index/skill')}">基于第三方语音识别技术</a>
+							</li>
+							<li><a href="{:U('Index/skill')}">RMVB/FLV/MKV视频播放技术</a>
+							</li>
+							<li><a href="{:U('Index/skill')}">股票曲线图</a>
 							</li>
 						</ul>
 					</li>
-					<li><a href="#"><i class="fa fa-group"></i>关于我们</a>
+					<li><a href="{:U('Index/about')}"><i class="fa fa-group"></i>关于我们</a>
 					</li>
 				</ul>
 
@@ -62,3 +85,10 @@
 	</div>
 
 </div>
+
+<script type="text/javascript">
+	$(function(){
+		$("#header-nav").pin();
+	});
+	
+</script>
