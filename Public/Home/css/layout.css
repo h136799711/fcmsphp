@@ -41,13 +41,13 @@
 	border: 0px;
 	margin-bottom: 0px;
 }
-/*头部 */
 
+/*头部 */
 #header {
 	width: 100%;
 }
-/*底部*/
 
+/*底部*/
 #footer {
 	width: 100%;
 	padding: 20px 0px;
@@ -139,6 +139,17 @@
 	.what-can-we-do,.about-boye,.core-services {
 		width: 100%;
 	}
+	.all-solutions .solution-item{
+		width:100%;
+		border: 1px solid #e6e6e6;
+		margin-top: 10px;
+		padding: 10px 15px;
+	}
+	.skill-item{
+		margin-bottom: 20px;
+		margin-top: 20px;
+		padding: 0px;
+	}
 @media (min-width: 768px) {
 	#header-nav{
 		width: 100%;
@@ -163,6 +174,12 @@
 		width: 100%;
 	}
 	
+	.all-solutions .solution-item{
+		width:100%;
+		border: 1px solid #e6e6e6;
+		margin-top: 10px;
+		padding: 10px 15px;
+	}
 } 
 @media (min-width: 992px) {
 	/*布局与通用*/
@@ -195,7 +212,7 @@
 		width:600px;
 		margin-left: 100px;
 		border: 1px solid #e6e6e6;
-		margin-bottom: 20px;
+		margin-top: 10px;
 		padding: 10px 15px;
 	}
 }
