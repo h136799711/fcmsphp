@@ -4,15 +4,15 @@
 		<!-- 顶部快捷导航 -->
 		<div class="pull-left">杭州博也信息科技有限公司</div>
 		<div class="pull-right">
-			<span class=""> 
+			<span class="hidden-xs"> 
 		 	<a class="xinlang" href="http://weibo.com/gooraye" target="_blank"><i class="fa fa-weibo fa-2x "></i></a>
 		</span>
-			<span class="">
+			<span  class="hidden-xs">
      		<a class="tentxun" href="http://t.qq.com/guruixinxikeji" target="_blank"><i class="fa fa-tencent-weibo fa-2x "></i></a>
 		</span>
-			<span class="weixin">
-			<img style="z-index:999999;position: absolute;top:20px;display: none;width: 100px;height: 100px;" id="weixinqrcode" src="__IMG__/qrcode_for_258.jpg" class="thumbnail" alt="微信服务号" />
-			<a href="#" onmouseover="$('#weixinqrcode').show(1500);" onmouseleave="$('#weixinqrcode').hide(1500);"><i class="fa fa-2x fa-weixin"></i></a>
+			<span class="weixin hidden-xs">
+			<img id="weixinqrcode" src="__IMG__/qrcode_for_258.jpg" class="thumbnail wx-qrcode" alt="微信服务号" />
+			<a href="#" onmouseover="$('#weixinqrcode').show(500);" onmouseout="$('#weixinqrcode').hide(1500);"><i class="fa fa-2x fa-weixin"></i></a>
 		</span>
 			<span>
 			<a href="tel:13484379290" ><i class="fa fa-2x fa-phone"></i><span style="font-size: 1.4em;">13484379290</span>
@@ -88,7 +88,7 @@
 
 <script type="text/javascript">
 	$(function(){
-		$("#header-nav").pin();
+//		$("#header-nav").pin();
 	});
 	
 </script>
